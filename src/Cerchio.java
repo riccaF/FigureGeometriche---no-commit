@@ -1,7 +1,7 @@
 public class Cerchio extends Forma {
 
     private double raggio;
-    
+
     public Cerchio(double raggio) {
         this.raggio = raggio;
     }
@@ -17,7 +17,8 @@ public class Cerchio extends Forma {
 
     @Override
     public String toString() {
-        return "Cerchio [raggio=" + raggio + "]";
+        return "Cerchio======== [raggio=" + raggio + "]";
+        // prova pull request
     }
 
     @Override
@@ -54,7 +55,7 @@ public class Cerchio extends Forma {
     }
 
     private double extracted() {
-        return 2*raggio*Math.PI;
+        return 2 * raggio * Math.PI;
     }
 
 }
